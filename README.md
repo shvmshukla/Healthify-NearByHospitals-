@@ -2,9 +2,12 @@
 This contains all the code till nearby places part 3
 
 Watch all the tutorials here : https://youtube.com/TechAcademy8
-For step1 : https://www.androidtutorialpoint.com/intermediate/android-map-app-showing-current-location-android/
 
-For step2 to step4:  https://www.androidtutorialpoint.com/intermediate/google-maps-search-nearby-displaying-nearby-places-using-google-places-api-google-maps-api-v2/
+For step1 : 
+https://www.androidtutorialpoint.com/intermediate/android-map-app-showing-current-location-android/
+
+For step2 to step4:  
+https://www.androidtutorialpoint.com/intermediate/google-maps-search-nearby-displaying-nearby-places-using-google-places-api-google-maps-api-v2/
 ____________________________________________________________________________________________________________________________
 # Step 1: MapActivity.java
 Majorly focuses on getting current location and forming URL. 
