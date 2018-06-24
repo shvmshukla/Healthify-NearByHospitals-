@@ -52,7 +52,7 @@ Data returned from web will be in json format which user can get using HttpURLCo
 Purpose of this class is already explained in step2.
 
 
-# Step 5: Database.java (InformActivity.java calls method contained in this class)
+# Step 5: Database.java (InformActivity.java calls methods contained in this class)
 
 This class contains two functions that are given below :
 1) boolean insertData()
