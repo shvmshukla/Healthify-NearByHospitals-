@@ -37,6 +37,8 @@ Progress : The type of the progress units published during the background comput
 
 Result : The type of the result of the background computation
 
+Read more about AsyncTask here https://www.journaldev.com/9708/android-asynctask-example-tutorial
+
 
 In the above code of GetNearByPlaces.java, DownloadUrl is a class which is used to retrieve data from URL using HttpURLConnection and File handling methods. We will discuss its code after this class. After retrieving data in the form of googlePlacesData we are passing it to onPostExecute method. Data from URL will be in the form JSON which needs to be parsed, So we have made a class named DataParser. DataParser.java file should be added at the same path as MainActivity.java. Code is given at bottom of this tutorial. dataParser.parse(result) is used to parse data and resultant is stored as a list in nearbyPlacesList. Now nearbyPlacesList will have all information about nearby Hospitals which we can easily access and add markers on corresponding places. Markers are added in Google Maps using function ShowNearbyPlaces. This is pretty much self explanatory.
 
