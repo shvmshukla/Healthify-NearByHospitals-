@@ -13,8 +13,7 @@ ________________________________________________________________________________
 Majorly focuses on getting current location and forming URL. 
 
 # Step 2: GetNearByPlaces.java
-Make a new class named GetNearbyPlacesData.java (at path …/GoogleMapsNearbyPlaces/app/src/main/java/com/androidtutorialpoint/
-googlemapsnearbyplaces/GetNearbyPlacesData.java). This class should be extended from AsyncTask.
+Make a new class named GetNearbyPlacesData.java. This class should be extended from AsyncTask.
 
 Android AsyncTask is an abstract class provided by Android which gives us the liberty to perform heavy tasks in the background and keep the UI thread light thus making the application more responsive.
 
@@ -65,5 +64,21 @@ This method is used to retreive the details of hospitals.
 # Step 6: InformActivity.java
 It carries command to propagate SQLite databse named as 'hospital'.
 Also, this contains method to display the details of hospitals.
+
+# About SQLite Database
+SQLite is a relational database management system contained in a C programming library. In contrast to many other database management systems, SQLite is not a client–server database engine. Rather, it is embedded into the end program.
+See the functions of SQLite databse here: 
+
+https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase
+
+SQLite is a self-contained, high-reliability, embedded, full-featured, public-domain, SQL database engine. SQLite is the most used database engine in the world.
+
+WHEN TO USE SQLite : https://www.sqlite.org/whentouse.html
+
+SQLite is not directly comparable to client/server SQL database engines such as MySQL, Oracle, PostgreSQL, or SQL Server since SQLite is trying to solve a different problem.
+Client/server SQL database engines strive to implement a shared repository of enterprise data. They emphasize scalability, concurrency, centralization, and control. SQLite strives to provide local data storage for individual applications and devices. SQLite emphasizes economy, efficiency, reliability, independence, and simplicity.
+SQLite does not compete with client/server databases. SQLite competes with fopen().
+
+For more details about SQLite visit https://www.sqlite.org/index.html
 
 
